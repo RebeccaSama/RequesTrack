@@ -1,0 +1,17 @@
+{
+  "student_id": 62a762d3b32e830927dbe8f4,
+  "claim_id": 62a3eb192f58e5c9e52cee30,
+  "course_id": 62a75c07b32e830927dbe891,
+  "dispute_note": 12,
+  "claim_note": 16,
+  "letter": {
+    "letter_type": "électronique",
+    "object": "contestation de note",
+    "description": "",
+    "file": []
+  },
+  "supporting_documents": [
+    {"name": "", "description": "", "file": []}
+  ],
+  "submit_state": Enregistré
+}
