@@ -330,13 +330,12 @@ class _SearchRequestState extends State<SearchRequest> {
                 height: 20,
                 decoration: const BoxDecoration(
                     shape: BoxShape.circle, color: Colors.black54),
-                child: CustomAnimation<double>(
+                child: CustomAnimationBuilder<double>(
                   duration: const Duration(milliseconds: 200),
-                  control: expanded
-                      ? CustomAnimationControl.playFromStart
-                      : CustomAnimationControl.playReverse,
+                  control:
+                      expanded ? Control.playFromStart : Control.playReverse,
                   tween: Tween<double>(begin: 0, end: pi),
-                  builder: (context, child, value) {
+                  builder: (context, value, child) {
                     return Transform.rotate(
                       angle: value,
                       child: child,

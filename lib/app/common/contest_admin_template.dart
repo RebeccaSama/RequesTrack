@@ -8,8 +8,8 @@ import 'package:request_track/app/modules/student/home/controllers/home_controll
 import 'package:request_track/app/modules/student/home/widgets/coupon.dart';
 import 'package:request_track/app/modules/student/home/widgets/list_puce.dart';
 import 'package:request_track/app/modules/student/home/widgets/mark.dart';
+import 'package:request_track/app/packages/sliding_sheet/sliding_sheet.dart';
 import 'package:request_track/app/utils/init_preferences.dart';
-import 'package:sliding_sheet/sliding_sheet.dart';
 
 class ContestAdminTemplate extends StatefulWidget {
   final dynamic snapshot;

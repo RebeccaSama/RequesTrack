@@ -5,7 +5,7 @@ import 'package:request_track/app/modules/chief_department/widgets/bottom_sheet_
 import 'package:request_track/app/modules/student/home/widgets/coupon.dart';
 import 'package:request_track/app/modules/student/home/widgets/list_puce.dart';
 import 'package:request_track/app/modules/student/home/widgets/mark.dart';
-import 'package:sliding_sheet/sliding_sheet.dart';
+import 'package:request_track/app/packages/sliding_sheet/sliding_sheet.dart';
 
 class ContestTreatmentDepartment extends StatefulWidget {
   final dynamic snapshot;

@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:request_track/app/modules/student/add_request/widgets/add_prof.dart';
-import 'package:sliding_sheet/sliding_sheet.dart';
+import 'package:request_track/app/packages/sliding_sheet/sliding_sheet.dart';
 
 class SupportingDocument extends StatefulWidget {
   const SupportingDocument({Key? key}) : super(key: key);
